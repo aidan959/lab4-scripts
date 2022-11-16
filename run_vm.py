@@ -9,7 +9,7 @@ import os
 print(f"Beginning provision of vm.")
 
 credential = AzureCliCredential()
-subscription_id = ""
+subscription_id = "c4813e66-22be-43e3-aefc-d1d4b533d4ea"
 
 resource_client = ResourceManagementClient(credential, subscription_id)
 
